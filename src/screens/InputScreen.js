@@ -21,7 +21,6 @@ const InputScreen = ({ navigation }) => {
     const [value8, setValue8] = useState("Hello");
     return (
         <>
-            <StatusBar barStyle="dark-content" />
             <SafeAreaView style={{ flex: 1 }}>
                 <Header leftIcon={{ name: "angle-left" }}
                     leftIconOnPress={() => navigation.dispatch({ ...CommonActions.goBack() })}

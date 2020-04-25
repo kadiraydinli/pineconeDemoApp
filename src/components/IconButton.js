@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
             android: {
                 elevation: 2
             },
-            default: {}
+            ios: {}
         }),
     },
     disabled: {

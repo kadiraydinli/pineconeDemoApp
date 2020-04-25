@@ -16,7 +16,6 @@ const SnackBarScreen = ({ navigation }) => {
     const [visible4, setVisible4] = useState(false);
     return (
         <>
-            <StatusBar barStyle="dark-content" />
             <SafeAreaView style={{ flex: 1 }}>
                 <Header leftIcon={{ name: "angle-left" }}
                     leftIconOnPress={() => navigation.dispatch({ ...CommonActions.goBack() })}

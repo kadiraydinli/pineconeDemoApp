@@ -13,7 +13,6 @@ import { Header, ListItem } from "../components/";
 const ListItemScreen = ({ navigation }) => {
     return (
         <>
-            <StatusBar barStyle="dark-content" />
             <SafeAreaView style={{ flex: 1 }}>
                 <Header leftIcon={{ name: "angle-left" }}
                     leftIconOnPress={() => navigation.dispatch({ ...CommonActions.goBack() })}

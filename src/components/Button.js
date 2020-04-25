@@ -42,7 +42,9 @@ const Button = (props) => {
         typeof shadow == 'number' ? {
             ...Platform.select({
                 android: { elevation: shadow },
-                default: { shadowOffSet: { 1: 1 } }
+                ios: { /*shadowOffSet: {
+                    width: 1, height: 1
+                }*/ }
             })
         } : typeof shadow == 'boolean' ? styles.shadow : null
     )
@@ -169,8 +171,11 @@ const styles = StyleSheet.create({
             android: {
                 elevation: 1
             },
-            default: {
-                shadowOffSet: { 1: 1 }
+            ios: {
+                /*shadowOffSet: {
+                    width: 1,
+                    height: 1
+                }*/
             }
         })
     },

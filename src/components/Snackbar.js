@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
                 width: "95%",
                 alignSelf: "center"
             },
-            default: { width: "100%" }
+            ios: { width: "100%" }
         }),
         position: "absolute"
     },

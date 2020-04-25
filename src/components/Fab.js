@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
         position: "absolute",
         ...Platform.select({
             android: { elevation: 2 },
-            default: {
+            ios: {
                 shadowColor: "#333",
                 shadowOpacity: 0.1,
                 shadowOffset: { x: 2, y: 0 },

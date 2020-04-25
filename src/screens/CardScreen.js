@@ -21,7 +21,6 @@ const CardScreen = ({ navigation }) => {
 
     return (
         <>
-            <StatusBar barStyle="dark-content" />
             <SafeAreaView style={{ flex: 1 }}>
                 <Header leftIcon={{ name: "angle-left" }}
                     leftIconOnPress={() => navigation.dispatch({ ...CommonActions.goBack() })}
@@ -42,7 +41,7 @@ const CardScreen = ({ navigation }) => {
                                 image={{ uri: links[1] }} />
                         </View>
                         <View style={styles.line}>
-                            <Card title="Card 5 - Resim Yazı" description="Açıklama fdg fdgfd gdfg hgfhgf h" imageTitle="Doğa"
+                            <Card title="Card 5 - Resim Yazı" description="Açıklama" imageTitle="Doğa"
                                 imageTitleStyle={{ color: "white" }} onPress={() => alert("Dokunuldu")}
                                 onLongPress={() => alert("Uzun dokunuldu")} image={{ uri: links[2] }} />
                             <Card title="Card 6" description="Açıklama"
