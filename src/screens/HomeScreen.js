@@ -22,8 +22,8 @@ const HomeScreen = ({ navigation }) => {
 
     return (
         <>
+            <StatusBar barStyle="light-content" backgroundColor="#FFF" />
             <SafeAreaView style={styles.container}>
-            <StatusBar barStyle="light-content" backgroundColor="red" />
                 <Header title="React Native Pinecone" placement="center"
                     rightIcon={{ name: "question-circle", color: "#17A2B8" }}
                     rightIconOnPress={() => Alert.alert("Bilgi", "Bu uygulama \"React Native Pinecone\" kütüphanesinde" +

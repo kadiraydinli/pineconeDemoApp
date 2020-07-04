@@ -12,6 +12,7 @@ import { Header, Avatar, Badge } from "../components/";
 const AvatarScreen = ({ navigation }) => {
     return (
         <>
+            <StatusBar barStyle="light-content" backgroundColor="#FFF" />
             <SafeAreaView style={{ flex: 1 }}>
                 <Header leftIcon={{ name: "angle-left" }}
                     leftIconOnPress={() => navigation.dispatch({ ...CommonActions.goBack() })}
